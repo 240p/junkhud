@@ -16,8 +16,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r375"	[$WIN32]
-		"ypos"	"r190"	[$WIN32]
+		"xpos"	"r125	"	[$WIN32]
+		"ypos"	"r70"	[$WIN32]
 		"wide"	"90"
 		"tall"	"60"
 	}
@@ -814,8 +814,8 @@
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
-		"xpos"					"0"
-		"ypos"					"410"
+		"xpos"					"50"
+		"ypos"					"400"
 		"wide"					"f0"
 		"tall"					"200"
 		"visible"				"1"
