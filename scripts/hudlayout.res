@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r125	"	[$WIN32]
+		"xpos"	"r125"	[$WIN32]
 		"ypos"	"r70"	[$WIN32]
 		"wide"	"90"
 		"tall"	"60"
@@ -55,12 +55,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos"			"r162 "	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -814,8 +810,8 @@
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
-		"xpos"					"50"
-		"ypos"					"400"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"200"
 		"visible"				"1"

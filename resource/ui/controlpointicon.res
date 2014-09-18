@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CControlPointCountdown"
 		"fieldName"	"Countdown"
-		"xpos"		"40"
+		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"4"
 		"wide"		"33"
@@ -33,7 +33,7 @@
 	"CapPlayerImage"
 	{
 		"ControlName"	"ImagePanel"		
-		"fieldName"		CapPlayerImage"
+		"fieldName"		"CapPlayerImage"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
