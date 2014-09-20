@@ -22,7 +22,8 @@ Scheme
 		"BGShadow_myhud"	"0 0 0 100"
 		"Piss_myhud"		"255 255 125 255"
 		"BrightGreen"		"0 255 0 255"
-		Black_myhud			"0 0 0 255"
+		"Black_myhud"			"0 0 0 255"
+		"LessBlack_myhud"		"0 0 0 200"
 
 		
 		

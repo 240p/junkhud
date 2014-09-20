@@ -93,7 +93,7 @@
 		"tall"					"7"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
+		"fillcolor"				"LessBlack_myhud"
 	}
 	"ItemEffectMeterTick2"
 	{	
@@ -106,7 +106,7 @@
 		"tall"					"7"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
+		"fillcolor"				"LessBlack_myhud"
 	}
 	"ItemEffectMeterTick3"
 	{	
@@ -119,6 +119,6 @@
 		"tall"					"7"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
+		"fillcolor"				"LessBlack_myhud"
 	}
 }
