@@ -1,15 +1,14 @@
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"0"
 		"xpos"			"0"	[$WIN32]
 		"ypos"			"275"	[$WIN32]
 		"wide"			"f0"
-		"tall"			"150"
+		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -35,7 +34,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
+		"xpos"					"41"
 		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"41"
@@ -56,16 +55,16 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"ypos"					"79"
-		"xpos"					"c-75"
+		"xpos"					"c-100"
+		"ypos"					"59"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"200"
 		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"	
+		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"MeterBG_override"		"BGShadow_myhud"
@@ -74,13 +73,52 @@
 	{	
 		"ControlName"			"ImagePanel"
 		"fieldName"				"ItemEffectMeterShadow"
-		"xpos"					"c-78"
-		"ypos"					"76"
+		"xpos"					"c-103"
+		"ypos"					"56"
 		"zpos"					"-1"
-		"wide"					"156"
+		"wide"					"206"
 		"tall"					"11"
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"BGShadow_myhud"
-	}					
+	}
+	"ItemEffectMeterTick1"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterTick1"
+		"xpos"					"c49"
+		"ypos"					"60"
+		"zpos"					"3"
+		"wide"					"2"
+		"tall"					"7"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 200"
+	}
+	"ItemEffectMeterTick2"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterTick2"
+		"xpos"					"c-1"
+		"ypos"					"60"
+		"zpos"					"3"
+		"wide"					"2"
+		"tall"					"7"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 200"
+	}
+	"ItemEffectMeterTick3"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterTick3"
+		"xpos"					"c-51"
+		"ypos"					"60"
+		"zpos"					"3"
+		"wide"					"2"
+		"tall"					"7"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 200"
+	}
 }

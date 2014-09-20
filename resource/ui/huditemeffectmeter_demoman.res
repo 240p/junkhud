@@ -1,15 +1,16 @@
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+"Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"0"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"275"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"150"
+		"xpos"			"r162"	[$WIN32]
+		"ypos"			"r92"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
+		"wide"			"100"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -21,22 +22,22 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"76"
+		"tall"			"44"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
+		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
+		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_3"		"../hud/misc_ammo_area_blue"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"25"
+		"xpos"					"25"
+		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -45,42 +46,49 @@
 		"visible"				"0"
 		"enabled"				"0"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
+
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"ypos"					"79"
-		"xpos"					"c-75"
+		"xpos"					"25"
+		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"150"
-		"tall"					"6"
+		"wide"					"40"
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Left"	
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"MeterBG_override"		"BGShadow_myhud"
-	}						
-	"ItemEffectMeterShadow"
-	{	
-		"ControlName"			"ImagePanel"
-		"fieldName"				"ItemEffectMeterShadow"
-		"xpos"					"c-78"
-		"ypos"					"76"
-		"zpos"					"-1"
-		"wide"					"156"
-		"tall"					"11"
+	}					
+	
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"76"
+		"ypos"					"10"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"	
+		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"BGShadow_myhud"
-	}					
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"TekoMedium32"
+	}
 }

@@ -1,11 +1,10 @@
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"0"
 		"xpos"			"0"	[$WIN32]
 		"ypos"			"275"	[$WIN32]
 		"wide"			"f0"
@@ -57,9 +56,9 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"ypos"					"79"
-		"xpos"					"c-75"
+		"xpos"					"c-100"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"200"
 		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -74,13 +73,52 @@
 	{	
 		"ControlName"			"ImagePanel"
 		"fieldName"				"ItemEffectMeterShadow"
-		"xpos"					"c-78"
+		"xpos"					"c-103"
 		"ypos"					"76"
 		"zpos"					"-1"
-		"wide"					"156"
+		"wide"					"206"
 		"tall"					"11"
 		"visible"				"1"
 		"enabled"				"1"
 		"fillcolor"				"BGShadow_myhud"
 	}					
+	"ItemEffectMeterTick1"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterTick1"
+		"xpos"					"c49"
+		"ypos"					"80"
+		"zpos"					"3"
+		"wide"					"2"
+		"tall"					"7"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 200"
+	}
+	"ItemEffectMeterTick2"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterTick2"
+		"xpos"					"c-1"
+		"ypos"					"80"
+		"zpos"					"3"
+		"wide"					"2"
+		"tall"					"7"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 200"
+	}
+	"ItemEffectMeterTick3"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ItemEffectMeterTick3"
+		"xpos"					"c-51"
+		"ypos"					"80"
+		"zpos"					"3"
+		"wide"					"2"
+		"tall"					"7"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 200"
+	}
 }
