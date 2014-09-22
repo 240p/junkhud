@@ -2452,6 +2452,16 @@ Scheme
 				"tall"		"48"
 				"antialias" "1"
 			}
+		}
+		
+		TekoRegular56
+		{
+			"1"
+			{
+				"name"		"Teko Regular"
+				"tall"		"56"
+				"antialias" "1"
+			}
 		}	
 		
 		TekoMedium12
@@ -2500,6 +2510,16 @@ Scheme
 			{
 				"name"		"Teko Medium"
 				"tall"		"48"
+				"antialias" "1"
+			}
+		}	
+		
+		TekoMedium56
+		{
+			"1"
+			{
+				"name"		"Teko Medium"
+				"tall"		"56"
 				"antialias" "1"
 			}
 		}	
