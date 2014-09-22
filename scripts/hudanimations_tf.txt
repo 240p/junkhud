@@ -204,22 +204,46 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+Animate PlayerStatusHealthBonusImage Alpha "160" Linear 0.0 0.2
+Animate PlayerStatusHealthBonusImage Alpha "80" Linear 0.2 0.4
 
-	RunEvent HudHealthBonusPulseLoop	0
+RunEvent HudHealthBonusPulseLoop 0.4
+
+Animate PlayerStatusHealthValue Alpha "120" Linear 0.0 0.1
+Animate PlayerStatusHealthValue FgColor "150 250 150 255" Linear 0.0 0.0
+
+Animate PlayerStatusHealthValueShadow Alpha "120" Linear 0.0 0.1
+Animate PlayerStatusHealthValueShadow FgColor "150 250 150 255" Linear 0.0 0.0
+
+Animate HealthValue FgColor "150 250 150 255" Linear 0.0 0.2
+Animate HealthValue FgColor "235 235 235 255" Linear 0.2 0.4
+
 }
 
 // call to loop HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
-	RunEvent HudHealthBonusPulse 0.0
+RunEvent HudHealthBonusPulse 0.0
 }
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 0.0
-	StopEvent HudHealthBonusPulseLoop 0.0
+StopEvent HudHealthBonusPulse 0.0
+StopEvent HudHealthBonusPulseLoop 0.0
+
+Animate PlayerStatusHealthValue Alpha "60" Linear 0.0 0.1
+Animate PlayerStatusHealthValue FgColor "0 0 0 255" Linear 0.0 0.0
+
+Animate PlayerStatusHealthValueShadow Alpha "60" Linear 0.0 0.1
+Animate PlayerStatusHealthValueShadow FgColor "0 0 0 255" Linear 0.0 0.0
+
+Animate PlayerStatusHealthValueShadow1 FgColor "Black" Linear 0.0 0.0
+
+Animate HealthValue alpha 255 linear 0.0 0.0
+Animate HealthValue fgcolor "235 235 235 255" accel 0.0 0.0
+
+Animate SpectatorPlayerStatusHealthValue2 alpha 255 linear 0.0 0.0
+Animate SpectatorPlayerStatusHealthValue2 fgcolor "235 235 235 255" accel 0.0 0.0
 }
 
 //===========================================
@@ -227,7 +251,7 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
 	RunEvent HudHealthDyingPulseLoop	0
