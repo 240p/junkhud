@@ -881,7 +881,7 @@
 		"xpos"					"200"
 		"ypos"					"200"
 		"wide"					"100"
-		"tall"					"50"
+		"tall"					"150"
 	}
 
 	AnnotationsPanelCallout
